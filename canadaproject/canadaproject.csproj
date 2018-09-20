@@ -75,6 +75,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DetailedDescriptions.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="icons\gulp-brands.svg" />
     <Content Include="images\candaflag1.jpg" />
@@ -86,6 +87,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DetailedDescriptions.aspx.cs">
+      <DependentUpon>DetailedDescriptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailedDescriptions.aspx.designer.cs">
+      <DependentUpon>DetailedDescriptions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
