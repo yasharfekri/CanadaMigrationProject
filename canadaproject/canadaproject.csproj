@@ -82,8 +82,10 @@
     <Content Include="images\candaflag2.jpg" />
     <Content Include="images\chevron-sign-down.png" />
     <Content Include="images\chevron-sign-down2.png" />
+    <Content Include="images\EmojiCanada.png" />
     <Content Include="styles\about.css" />
     <Content Include="styles\circleicons.css" />
+    <Content Include="styles\DetailedDescription.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
