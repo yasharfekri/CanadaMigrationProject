@@ -1,4 +1,37 @@
-﻿html {
+﻿@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/ykb.eot');
+    src: local(''), url('../fonts/ykb.woff') format('woff'), url('../fonts/ykb.ttf') format('truetype'), url('../fonts/ykb.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('../fonts/Gilroylight.eot');
+    src: local(''), url('../fonts/Gilroylight.woff') format('woff'), url('../fonts/Gilroylight.ttf') format('truetype'), url('../fonts/Gilroylight.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../fonts/IRANSans-Light-web.eot');
+    src: local(''), url('../fonts/IRANSans-Light-web.woff') format('woff'), url('../fonts/IRANSans-Light-web.ttf') format('truetype'), url('../fonts/IRANSans-Light-web.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../fonts/IRANSans-Light-web.eot');
+    src: local(''), url('../fonts/IRANSans-Bold-web.woff') format('woff'), url('../fonts/IRANSans-Bold-web.ttf') format('truetype'), url('../fonts/IRANSans-Bold-web.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+html {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -9,8 +42,10 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color:grey;
+    /*background-color: grey;*/
+    background-image: url(../images/candaflag2.jpg);
     background-size: cover;
+    user-select: none;
 }
 
 .wrapper {
@@ -26,6 +61,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -40%);
+    
 }
 
 .container span {
@@ -42,27 +78,25 @@ body {
     /*margin-bottom: 2px;*/
     /*background: black;*/
     position: relative;
-    animation: text 3s 1;
+    animation: text 2.2s 1;
 }
 
 .textcenter {
     /*font-size: 30px;*/
-    /*color: #6ab04c;*/
-    color: white;
+    color: #c10036;
+    /*color: white;*/
     font-family: 'James Fajardo';
-    font-size: 120px;
-    /*position: fixed;*/
+    font-size: 60px;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-0%, -253%);
-    position:fixed;
+    transform: translate(30%, -110%);
 }
 /*.nav {
     position: absolute;
     top: 4%;
     left: 50%;
 }*/
-
     .nav ul {
         list-style: none;
     }
@@ -116,7 +150,7 @@ body {
 
     .tagline p {
         color: #fff;
-        font-family: A Rooznameh;
+        font-family: 'A Rooznameh';
         font-weight: bolder;
         font-size: 29px;
         margin: 0;
@@ -134,7 +168,7 @@ body {
     }
 
 .tagparaph {
-    font-family: 'A Rooznameh';
+    font-family: 'IRANYekan,sans-serif';
     font-size: 34px;
     font-weight: bolder;
     top: 59%;
@@ -142,7 +176,6 @@ body {
     transform: translate(-20%, -13%);
     position: absolute;
     color: #fff;
-
 }
 
 @keyframes text {
@@ -152,11 +185,11 @@ body {
     }
     30% {
     letter-spacing: 30px;
-    margin-bottom: -40px;
+    margin-bottom: -60px;
     }
     85% {
     letter-spacing: 2px;
-    margin-bottom: -40px;
+    margin-bottom: -140px;
     }
 }
 
