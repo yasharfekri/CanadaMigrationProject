@@ -6,30 +6,21 @@
     font-style: normal;
 }
 
+
 @font-face {
-    font-family: 'gilroy';
-    src: url('../fonts/Gilroylight.eot');
-    src: local(''), url('../fonts/Gilroylight.woff') format('woff'), url('../fonts/Gilroylight.ttf') format('truetype'), url('../fonts/Gilroylight.woff2') format('woff');
+    font-family: 'iransans';
+    /*src: url('../fonts/IRANSans-Light-web.eot');*/
+    src: local(''), url('../Fonts/irsans.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'iransans';
-    src: url('../fonts/IRANSans-Light-web.eot');
-    src: local(''), url('../fonts/IRANSans-Light-web.woff') format('woff'), url('../fonts/IRANSans-Light-web.ttf') format('truetype'), url('../fonts/IRANSans-Light-web.woff2') format('woff');
+    font-family: 'James Fajardo';
+    src: url(../Fonts/James_Fajardo.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'iransans';
-    src: url('../fonts/IRANSans-Light-web.eot');
-    src: local(''), url('../fonts/IRANSans-Bold-web.woff') format('woff'), url('../fonts/IRANSans-Bold-web.ttf') format('truetype'), url('../fonts/IRANSans-Bold-web.woff2') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
 
 html {
     margin: 0;
@@ -150,7 +141,7 @@ body {
 
     .tagline p {
         color: #fff;
-        font-family: 'A Rooznameh';
+        font-family: 'iransans';
         font-weight: bolder;
         font-size: 29px;
         margin: 0;
