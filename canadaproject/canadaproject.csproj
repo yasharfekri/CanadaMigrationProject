@@ -84,6 +84,8 @@
   <ItemGroup>
     <Content Include="Fonts\James_Fajardo.ttf" />
     <Content Include="Fonts\irsans.ttf" />
+    <Content Include="Fonts\BYekan+.ttf" />
+    <Content Include="Fonts\Rooznameh.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

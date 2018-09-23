@@ -61,10 +61,10 @@
             <!--Row Start-->
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 data-aos="fade-left" data-aos-delay="300">به مرکز تخصصی مهاجرت تحصیلی خوش آمدید</h1>
-                    <br>
-                    <h2 data-aos="fade-left" data-aos-delay="500">The food blog for hungry</h2>
-                    <h4 data-aos="fade-left" data-aos-delay="700">One of the finest food and restaurant theme on the net, cleaniest and simplistic <span>wordpress theme, browse it and experience it</span></h4>
+                    <h1 data-aos="fade-left" data-aos-delay="300">موسسه حقوقی کبلایی حسین</h1>
+                    <br/>
+                    <h2 data-aos="fade-left" data-aos-delay="500">برنامه های کارآفرینی ایالات کانادا</h2>
+                    <h4 data-aos="fade-left" data-aos-delay="700">خدمات موسسه ی کبلایی حسین با همکاری زاکوئنه کوبیجار و سیستون پشته متشکل از <span>حقوق و وکالت، مشاوره رایگان و اخذ ویزا</span></h4>
                     <p data-aos="fade-left" data-aos-delay="900">
                         <i class="fa fa-map-marker" aria-hidden="true"></i><span>204, Eastwood, Next to that building, 200034</span>
                     </p>
