@@ -44,10 +44,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FSharp.Data, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FSharp.Data.1.0.0\lib\net40\FSharp.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveReload.NET, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveReload.NET.1.0.3\lib\net45\LiveReload.NET.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.3.5.8\lib\35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Dataflow, Version=4.5.24.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Tpl.Dataflow.4.5.24\lib\portable-net45+win8+wpa81\System.Threading.Tasks.Dataflow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -64,6 +77,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="vtortola.WebSockets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\vtortola.WebSocketListener.1.0.0\lib\net45\vtortola.WebSockets.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -76,16 +92,54 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DetailedDescriptions.aspx" />
+    <Content Include="generaldescription.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="icons\gulp-brands.svg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3d-slider-4.jpg" />
+    <Content Include="images\about-bg.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\blog-1.jpg" />
+    <Content Include="images\blog-2.jpg" />
+    <Content Include="images\blog-3.jpg" />
+    <Content Include="images\blog-4.jpg" />
+    <Content Include="images\blog_single-bg.jpg" />
+    <Content Include="images\canada-logo.png" />
+    <Content Include="images\canadalogo.png" />
     <Content Include="images\candaflag1.jpg" />
     <Content Include="images\candaflag2.jpg" />
     <Content Include="images\chevron-sign-down.png" />
     <Content Include="images\chevron-sign-down2.png" />
+    <Content Include="images\college-study-tips.jpg" />
     <Content Include="images\EmojiCanada.png" />
+    <Content Include="images\footer-bg.jpg" />
+    <Content Include="images\footer-logo.png" />
+    <Content Include="images\item-1.jpg" />
+    <Content Include="images\item-2.jpg" />
+    <Content Include="images\item-3.jpg" />
+    <Content Include="images\item-4.jpg" />
+    <Content Include="images\item-5.jpg" />
+    <Content Include="images\item-6.jpg" />
+    <Content Include="images\item-7.jpg" />
+    <Content Include="images\item-8.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\person-1.jpg" />
+    <Content Include="images\person-2.jpg" />
+    <Content Include="images\slide1.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\animate.js" />
+    <Content Include="js\aos.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\menu.js" />
     <Content Include="styles\about.css" />
+    <Content Include="styles\animate.css" />
+    <Content Include="styles\aos.css" />
     <Content Include="styles\circleicons.css" />
     <Content Include="styles\DetailedDescription.css" />
+    <Content Include="styles\generaldescription.css" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\menu.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +149,13 @@
     </Compile>
     <Compile Include="DetailedDescriptions.aspx.designer.cs">
       <DependentUpon>DetailedDescriptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="generaldescription.aspx.cs">
+      <DependentUpon>generaldescription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="generaldescription.aspx.designer.cs">
+      <DependentUpon>generaldescription.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
