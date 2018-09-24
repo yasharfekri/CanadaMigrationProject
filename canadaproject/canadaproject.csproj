@@ -98,6 +98,7 @@
     <Content Include="generaldescription.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="icons\gulp-brands.svg" />
+    <Content Include="ImageSlideShow.aspx" />
     <Content Include="images\1.jpg" />
     <Content Include="images\2.jpg" />
     <Content Include="images\3d-slider-4.jpg" />
@@ -143,15 +144,19 @@
     <Content Include="index.html" />
     <Content Include="js\animate.js" />
     <Content Include="js\aos.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\custom.js" />
+    <Content Include="js\jquery.min.js" />
     <Content Include="js\menu.js" />
     <Content Include="js\universities.js" />
     <Content Include="styles\about.css" />
     <Content Include="styles\animate.css" />
     <Content Include="styles\aos.css" />
+    <Content Include="styles\bootstrap.min.css" />
     <Content Include="styles\circleicons.css" />
     <Content Include="styles\DetailedDescription.css" />
     <Content Include="styles\generaldescription.css" />
+    <Content Include="styles\Imageslider.css" />
     <Content Include="styles\main.css" />
     <Content Include="styles\menu.css" />
     <Content Include="styles\universities.css" />
@@ -172,6 +177,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageSlideShow.aspx.cs">
+      <DependentUpon>ImageSlideShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageSlideShow.aspx.designer.cs">
+      <DependentUpon>ImageSlideShow.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="universities.aspx.cs">
