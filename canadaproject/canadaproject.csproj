@@ -95,7 +95,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DetailedDescriptions.aspx" />
     <Content Include="generaldescription.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="icons\gulp-brands.svg" />
@@ -104,13 +103,17 @@
     <Content Include="images\3d-slider-4.jpg" />
     <Content Include="images\about-bg.jpg" />
     <Content Include="images\banner.jpg" />
+    <Content Include="images\banneruniversity.jpg" />
+    <Content Include="images\Banneruniversityhere.png" />
     <Content Include="images\blog-1.jpg" />
     <Content Include="images\blog-2.jpg" />
     <Content Include="images\blog-3.jpg" />
     <Content Include="images\blog-4.jpg" />
     <Content Include="images\blog_single-bg.jpg" />
+    <Content Include="images\BritishColumbiaLogo.png" />
     <Content Include="images\canada-logo.png" />
     <Content Include="images\canadalogo.png" />
+    <Content Include="images\canadasatelite.png" />
     <Content Include="images\candaflag1.jpg" />
     <Content Include="images\candaflag2.jpg" />
     <Content Include="images\chevron-sign-down.png" />
@@ -119,6 +122,7 @@
     <Content Include="images\EmojiCanada.png" />
     <Content Include="images\footer-bg.jpg" />
     <Content Include="images\footer-logo.png" />
+    <Content Include="images\herebanner.jpg" />
     <Content Include="images\item-1.jpg" />
     <Content Include="images\item-2.jpg" />
     <Content Include="images\item-3.jpg" />
@@ -128,14 +132,20 @@
     <Content Include="images\item-7.jpg" />
     <Content Include="images\item-8.jpg" />
     <Content Include="images\logo.png" />
+    <Content Include="images\memorial.jpg" />
+    <Content Include="images\Memoriallogo.png" />
+    <Content Include="images\Nova-Scotia.jpg" />
+    <Content Include="images\NovaScotia.jpg" />
     <Content Include="images\person-1.jpg" />
     <Content Include="images\person-2.jpg" />
     <Content Include="images\slide1.jpg" />
+    <Content Include="images\TorentoLogo.png" />
     <Content Include="index.html" />
     <Content Include="js\animate.js" />
     <Content Include="js\aos.js" />
     <Content Include="js\custom.js" />
     <Content Include="js\menu.js" />
+    <Content Include="js\universities.js" />
     <Content Include="styles\about.css" />
     <Content Include="styles\animate.css" />
     <Content Include="styles\aos.css" />
@@ -144,16 +154,11 @@
     <Content Include="styles\generaldescription.css" />
     <Content Include="styles\main.css" />
     <Content Include="styles\menu.css" />
+    <Content Include="styles\universities.css" />
+    <Content Include="universities.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DetailedDescriptions.aspx.cs">
-      <DependentUpon>DetailedDescriptions.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DetailedDescriptions.aspx.designer.cs">
-      <DependentUpon>DetailedDescriptions.aspx</DependentUpon>
-    </Compile>
     <Compile Include="generaldescription.aspx.cs">
       <DependentUpon>generaldescription.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -169,6 +174,13 @@
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="universities.aspx.cs">
+      <DependentUpon>universities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="universities.aspx.designer.cs">
+      <DependentUpon>universities.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

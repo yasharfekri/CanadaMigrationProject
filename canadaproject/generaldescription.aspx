@@ -60,19 +60,19 @@
         <div class="container">
             <!--Row Start-->
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12" style="color:white;">
                     <h1 data-aos="fade-left" data-aos-delay="300">موسسه حقوقی کبلایی حسین</h1>
                     <br/>
                     <h2 data-aos="fade-left" data-aos-delay="500">برنامه های کارآفرینی ایالات کانادا</h2>
-                    <h4 data-aos="fade-left" data-aos-delay="700">خدمات موسسه ی کبلایی حسین با همکاری زاکوئنه کوبیجار و سیستون پشته متشکل از <span>حقوق و وکالت، مشاوره رایگان و اخذ ویزا</span></h4>
+                    <h4 data-aos="fade-left" data-aos-delay="700">خدمات موسسه ی کبلایی حسین با همکاری زاکوئنه کوبیجار <span>حقوق و وکالت، مشاوره رایگان و اخذ ویزا</span></h4>
                     <p data-aos="fade-left" data-aos-delay="900">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>204, Eastwood, Next to that building, 200034</span>
+                        <i class="fa fa-map-marker" aria-hidden="true" ></i><span style="color:white;">204, Eastwood, Next to that building, 200034</span>
                     </p>
                     <p data-aos="fade-left" data-aos-delay="900">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i><span>10:00 am - 11:00 pm</span>
-                        <i class="fa fa-phone" aria-hidden="true"></i><span>800 1234 5678</span>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i><span style="color:white;">10:00 am - 11:00 pm</span>
+                        <i class="fa fa-phone" aria-hidden="true"></i><span style="color:white;">800 1234 5678</span>
                     </p>
-                    <a class="btn btn-success" href="recipes.html" role="button" data-aos="fade-up" data-aos-delay="1000">check our food</a>
+                    <a class="btn btn-success" href="recipes.html" role="button" data-aos="fade-up" data-aos-delay="1000">check our team</a>
                 </div>
             </div>
             <!--Row Ended-->
@@ -139,7 +139,7 @@
             <div class="row">
                 <div class="col-lg-6 col-sm-12" data-aos="fade-right" data-aos-delay="300">
                     <a href="#" class="d-block">
-                        <img class="img-fluid img-thumbnail" src="images/about-bg.jpg" alt="about-bg">
+                        <img class="img-fluid img-thumbnail" src="images/about-bg.jpg" alt="about-bg"/>
                     </a>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -427,7 +427,7 @@
                 <!-- Grid column -->
                 <div class="col-md-12">
                     <a href="index.html">
-                        <img src="images/footer-logo.png" alt="footer-logo"></a>
+                        <img src="images/canada-logo.png" alt="footer-logo"/></a>
                 </div>
                 <!-- Grid column -->
 

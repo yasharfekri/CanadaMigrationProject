@@ -1,3 +1,5 @@
+ 
+
 @font-face {
     font-family: 'iransans';
     src: local(''), url('../Fonts/irsans.ttf') format('truetype');
@@ -11,10 +13,9 @@
     font-weight: normal;
     font-style: normal;
 }
-/*==============================================
-          Feast Website Stylesheet
-           Body Core Stylesheet
-===============================================*/
+
+
+
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 *:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 body {
@@ -92,7 +93,7 @@ header {
     width: 100%;
 }
 .header {
-    background-image: url("../images/candaflag2.jpg");
+    background-image: url("../images/banner.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -255,13 +256,13 @@ header .social-icons i:hover {color: #49a003;}
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: url(../images/college-study-tips.jpg);
+    background-image: url("../images/herebanner.jpg");
     direction: rtl;
 }
     .banner-home h1, .banner-home h2 {
         /*padding: 0;*/
         text-align:center;
-        font-size: 45px;
+        font-size: 75px;
         font-weight: 900;
         line-height: 43px;
         color: #fff;
@@ -274,7 +275,7 @@ header .social-icons i:hover {color: #49a003;}
     }
 .banner-home h2 {margin-bottom: 40px;}
 .banner-home h4 span{display: block;}
-.banner-home h4 {font-family: 'A Rooznameh'; font-size: 32px; font-weight: 900; padding-bottom: 55px; line-height: 35px;}
+.banner-home h4 {font-family: 'A Rooznameh'; font-size: 41px; font-weight: 900; padding-bottom: 55px; line-height: 35px;}
 .banner-home h4 span{display: block;}
 .banner-home p {font-size: 18px;font-weight: 600;}
 .banner-home i {font-size: 22px; margin-right: 15px;}
@@ -478,7 +479,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
     border: none;
     border-radius: 0;
 }
-.Subscribe {width: 100%;height: auto;color: #fff; padding: 60px; background: #49a003;}
+.Subscribe {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 60px;
+    background: #cb2027;
+    }
 
 .Subscribe form {
     float: right;
@@ -1268,7 +1275,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
     .banner-home i {font-size: 15px;margin-right: 10px;}
     .banner-home .btn-success {font-size: 12px;padding: 11px 10px;letter-spacing: 0.5px;}
     .testimonial {padding-top: 40px;padding-bottom: 0;}
-    .testimonial .heading h3 {padding: 0 30px;;}
+    .testimonial .heading h3 {padding: 0 30px;}
     .about .img-thumbnail {height: 200px;}
     .about p {font-size: 12px;letter-spacing: 0.5px;font-weight: 400;padding-bottom: 5px;}
     .about h2 {font-weight: 400;}
@@ -1329,7 +1336,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
     header .social-icons {margin-top: -34px;}
     .slide-menu .fa-bars {font-size: 18px;}
     .sticky .social-icons {margin-top: -47px;}
-    .banner-home {padding-top: 110px;height: 510px;text-align: center;}
+    .banner-home {padding-top: 110px; height: 310px;text-align: center;}
     .banner-home .btn-success {padding: 9px 9px;}
     .banner-home i {display: block;margin-right: 0;}
     .textBox {height: 85%;}
