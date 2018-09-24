@@ -64,7 +64,8 @@
         </nav>
     </header>
     <!-- Header section Ended-->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -569,5 +570,8 @@
   <script>
       AOS.init();
   </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
