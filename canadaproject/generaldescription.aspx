@@ -74,23 +74,29 @@
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="position:absolute; top:50%; left:35%; transform: translate(-50%, -50%); text-align:left;">
               <h3>First Slide</h3>
               <p>This is a description for the first slide.</p>
+                <a class="btn btn-success" href="recipes.html" role="button" data-aos="fade-up" data-aos-delay="1000"
+                    style="margin:0px 0px 0px 10px; color: #fff; background-color: #808080; border-color: #808080; font-size:12px;">Read more</a>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-            <div class="carousel-caption d-none d-md-block">
+           <div class="carousel-caption d-none d-md-block" style="position:absolute; top:50%; left:35%; transform: translate(-50%, -50%); text-align:left;">
               <h3>Second Slide</h3>
               <p>This is a description for the second slide.</p>
+                <a class="btn btn-success" href="recipes.html" role="button" data-aos="fade-up" data-aos-delay="1000"
+                    style="margin:0px 0px 0px 10px; color: #fff; background-color: #808080; border-color: #808080; font-size:12px;">Read more</a>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="position:absolute; top:50%; left:35%; transform: translate(-50%, -50%); text-align:left;">
               <h3>Third Slide</h3>
               <p>This is a description for the third slide.</p>
+                <a class="btn btn-success" href="recipes.html" role="button" data-aos="fade-up" data-aos-delay="1000"
+                    style="margin:0px 0px 0px 10px; color: #fff; background-color: #808080; border-color: #808080; font-size:12px;">Read more</a>
             </div>
           </div>
         </div>
