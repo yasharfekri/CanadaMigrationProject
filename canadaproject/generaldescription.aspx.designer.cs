@@ -8,8 +8,7 @@
 //------------------------------------------------------------------------------
 
 namespace canadaproject {
-    
-    
+        
     public partial class generaldescription {
     }
 }
